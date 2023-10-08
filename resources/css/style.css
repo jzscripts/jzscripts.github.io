@@ -1,0 +1,12 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+} */
+
+.full-img{
+    background-image: url('../img/background/hojas.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

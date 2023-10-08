@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico Integrador Front</title>
+    <!-- CSS Personalizado -->
+    <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap -->
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand text-center" href="#">
+                    <img src="./resources/img/logo.png" alt="Tecno-Yungas" width="130">
+                </a>
+                <h2 class="d-inline-block align-bottom p-1 text-sm-start">
+                    <span class="d-none d-sm-inline">Conferencia </span>
+                    Tecno-Yungas
+                </h2>
+                <!-- Botón de hamburguesa para dispositivos móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Barra de Navegación -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lugar y Fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Conviértete en Orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><strong>Comprar Tickets</strong></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Carrusel -->
+        <section>
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicadores -->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+            </ol>
+            <!-- Contenido del Carrusel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./resources/img/carousel/camino.jpg" class="d-block w-100" alt="Imagen 1">
+                    <div class="carousel-caption text-sm-start pb-1 pt-1">
+                        <h5 class="d-none d-sm-block">Tecno-Yungas</h5>
+                        <p class="d-none d-sm-block">Llega por primera vez al norte de Argentina un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                        <a class="btn btn-outline-light mb-3" href="#">Quiero ser orador</a> 
+                        <a class="btn btn-primary ms-2 mb-3" href="#">Comprar tickets</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./resources/img/carousel/cascada.jpg" class="d-block w-100" alt="Imagen 2">
+                    <div class="carousel-caption text-sm-start pb-1 pt-1">
+                        <h5 class="d-none d-sm-block">Tecno-Yungas</h5>
+                        <p class="d-none d-sm-block">Llega por primera vez al norte de Argentina un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                        <a class="btn btn-outline-light mb-3" href="#">Quiero ser orador</a> 
+                        <a class="btn btn-primary ms-2 mb-3" href="#">Comprar tickets</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./resources/img/carousel/jaguar.jpg" class="d-block w-100" alt="Imagen 3">
+                    <div class="carousel-caption text-sm-start pb-1 pt-1">
+                        <h5 class="d-none d-sm-block">Tecno-Yungas</h5>
+                        <p class="d-none d-sm-block">Llega por primera vez al norte de Argentina un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                        <a class="btn btn-outline-light mb-3" href="#">Quiero ser orador</a> 
+                        <a class="btn btn-primary ms-2 mb-3" href="#">Comprar tickets</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Controles del Carrusel -->
+            <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </a>
+            </div>
+        </section>
+
+        <!-- Oradores -->
+        <section class="container-fluid pb-4 pt-4 full-img">
+            <h2 class="text-center text-light text-decoration-underline">Conoce a los Oradores</h2>
+            <div class="row justify-content-center pt-2 pb-4">
+                <div class="col-md-11">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="./resources/img/oradores/tiktok.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="mb-2">
+                                        <span class="badge bg-dark">Tiktok</span>
+                                    </div>
+                                    <h5 class="card-title">Zhang Yiming</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aspernatur, sit dolorem officiis dolor, nobis sed labore non culpa dignissimos amet excepturi odit quis quos temporibus ut asperiores possimus. Veniam!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="./resources/img/oradores/facebook.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="mb-2">
+                                        <span class="badge bg-primary text-dark">Facebook</span>
+                                        <span class="badge bg-danger">Instagram</span>
+                                    </div>
+                                    <h5 class="card-title">Mark Zuckerberg</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, nostrum saepe et quaerat illo possimus provident laboriosam totam sunt magni recusandae eligendi optio earum quas ab omnis fuga molestiae corrupti.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="./resources/img/oradores/x.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="mb-2">
+                                        <span class="badge bg-dark">X</span>
+                                        <span class="badge bg-secondary">Tesla</span>
+                                    </div>
+                                    <h5 class="card-title">Elon Musk</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, veniam eius excepturi sapiente eligendi quaerat soluta nihil iste vero sequi cum nam quibusdam quam voluptas consequuntur natus! Optio, perspiciatis velit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ubicación -->
+        <section class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-md">
+                        <img src="./resources/img/ubicacion/tucan.jpg" alt="ubicacion" class="w-100 img-fluid">
+                    </div>
+                    <div class="col-md text-light bg-secondary px-4 pt-4 pb-4">
+                        <h2 class="text-center text-success text-decoration-underline">Jujuy - Octubre</h2>
+                        <p class="pt-2 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat molestias vitae unde facere voluptatem minus voluptates commodi corrupti tenetur! Pariatur qui enim animi sapiente sed error similique molestiae ipsum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, excepturi deleniti harum facilis id, a illo assumenda officiis illum praesentium eos. Qui laborum ratione in hic ducimus debitis voluptatum aperiam.</p>
+                        <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Formulario -->
+        <section class="container-fluid pt-4 pb-4 bg-success">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h2 class="text-center text-decoration-underline">Conviértete en Orador</h2>
+                    <form>
+                        <div class="form-group mb-2">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre completo">
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="mensaje">Temas a exponer:</label>
+                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe aqui los temas que quieres exponer en la Conferencia"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mb-0">
+        <div class="container-fluid bg-dark pt-3">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link">
+                        Preguntas frecuentes
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        Contáctanos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        Prensa
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        Conferencias
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        Términos y condiciones
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        Privacidad
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        Estudiantes
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container-fluid bg-dark mb-0 pb-0">
+            <p class="d-block text-light text-center mb-0 pb-2 pt-2">Academia de aprendizaje a lo largo de la vida.</p>
+            <p class="d-block text-light text-center mb-0 pt-1 pb-2">Copy Left - Julián Zayas 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
