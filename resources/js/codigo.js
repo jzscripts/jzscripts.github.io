@@ -34,9 +34,9 @@ document.addEventListener("DOMContentLoaded",function(){
                     if(categoria.value == 1){
                         totalPago.innerHTML = (cantidad*valorEntrada)*porcentEstudiante;
                     }else if(categoria.value == 2){
-                        alert("Trainee")
+                        totalPago.innerHTML = (cantidad*valorEntrada)*porcentTrainee;
                     }else if(categoria.value == 3){
-                        alert("Junior");
+                        totalPago.innerHTML = (cantidad*valorEntrada)*porcentJunior;
                     }
                 }
             }
