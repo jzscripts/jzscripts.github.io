@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded",function(){
                 }
             }
         }
-
+        // Definición de función de boton de reseteo de campos
         btnBorrar.addEventListener('click', function(){
             totalPago.innerHTML = "";
         });    
