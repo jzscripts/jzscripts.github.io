@@ -35,19 +35,19 @@ document.addEventListener("DOMContentLoaded",function(){
 
         // Validación de campos adicionales
         if(nombre.value === ""){
-            alert("Error! Complete el campo nombre y vuelva a intentarlo.");}
+            alert("Error! Complete el campo Nombre y vuelva a intentarlo.");}
         else{
             if(apellido.value === ""){
-                alert("Error! Complete el campo apellido y vuelva a intentarlo.");}
+                alert("Error! Complete el campo Apellido y vuelva a intentarlo.");}
             else{ 
                 if(email.value === ""){
                     alert("Error! Complete el campo Email y vuelva a intentarlo.");}
                 else{
                     if(!cantidad){
-                        alert("Error! Seleccione una cantidad y vuelva a intentarlo.");}
+                        alert("Error! Seleccione una Cantidad y vuelva a intentarlo.");}
                     else{
                         if(categoria.value === ""){
-                            alert("Error! Seleccione una categoria y vuelva a intentarlo.");}
+                            alert("Error! Seleccione una Categoria y vuelva a intentarlo.");}
                         else{
                             // Logica de la función principal
                             if(categoria.value == 1){
